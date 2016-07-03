@@ -6,13 +6,6 @@ System.config({
     "github:*": "jspm_packages/github/*",
     "npm:*": "jspm_packages/npm/*"
   },
-  bundles: {
-    "build.js": [
-      "lib/main.js",
-      "lib/greet.js"
-    ]
-  },
-
   map: {
     "typescript": "npm:typescript@1.8.10",
     "github:jspm/nodelibs-os@0.1.0": {
