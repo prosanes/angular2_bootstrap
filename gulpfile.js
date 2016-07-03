@@ -8,3 +8,11 @@ gulp.task('default', function() {
       }))
     .pipe(gulp.dest('build/'));
 });
+
+gulp.task('angular', function() {
+  return gulp.src('app/bootstrap.ts')
+    .pipe(gulp_jspm({
+        selfExecutingBundle: true
+      }))
+    .pipe(gulp.dest('build/'));
+});
