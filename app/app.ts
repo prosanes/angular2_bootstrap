@@ -4,6 +4,6 @@ import {Component} from "angular2/core"
 
 @Component({
   selector: "my-app",
-  template: `test5`
+  template: `test7`
 })
 export class App { }
